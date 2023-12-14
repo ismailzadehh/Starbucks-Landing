@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  max-width: 1120px;
+  margin-left: 100px;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  width: 80px;
+  height: 80px;
+}
+.nav-menu ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+}
+ul li {
+  padding: 30px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1120px;
+}
