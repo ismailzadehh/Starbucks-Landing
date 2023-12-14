@@ -33,4 +33,38 @@ a {
 
 .container {
   max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 110px;
+}
+
+.texts h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+.texts {
+  max-width: 680px;
+}
+
+.texts p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.texts button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  background: #017143;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 20px;
+}
+h1 span {
+  color: #017143;
+  font-weight: bolder;
+  font-size: 60px;
 }
